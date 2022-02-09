@@ -3,7 +3,7 @@ FROM python:3.7-alpine3.12
 WORKDIR /workdir
 
 COPY requirements.txt .
-RUN pip install --prefix=/workdir -r requirements.txt
+RUN apk add git && pip install --prefix=/workdir -r requirements.txt
 
 COPY netjson_python-3.7.pth /workdir/lib/
 
