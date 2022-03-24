@@ -1,5 +1,5 @@
 sensu_plugin
 requests
-git+https://github.com/wnagele/netdiff.git@89f8607#egg=netdiff
+git+https://github.com/openwisp/netdiff.git@master#egg=netdiff
 networkx
 netaddr
